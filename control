@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Maintainer:Nick Obedin <dancingrobot84@gmail.com>, Nikita A Menkovich <menkovich@gmail.com>
 Uploaders: Nikita A Menkovich <menkovich@gmail.com>
-Build-Depends: debhelper (>= 7), cmake, libssl0.9.8 | libssl1.0.0
+Build-Depends: debhelper (>= 7), cmake, libssl0.9.8 | libssl1.0.0, libssl-dev, qt4-qmake, libqt4-dev
 Standards-Version: 3.7.3
 Homepage: https://github.com/dancingrobot84/passmate
 
