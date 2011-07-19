@@ -1,0 +1,14 @@
+Source: passmate
+Section: net
+Priority: optional
+Maintainer:Nick Obedin <dancingrobot84@gmail.com>, Nikita A Menkovich <menkovich@gmail.com>
+Uploaders: Nikita A Menkovich <menkovich@gmail.com>
+Build-Depends: debhelper (>= 7), cmake, libssl0.9.8 | libssl1.0.0
+Standards-Version: 3.7.3
+Homepage: https://github.com/dancingrobot84/passmate
+
+Package: passmate
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: very simple password manager
+ Passmate is fast and small tool for keeping your passwords and files safe. It uses modern encryption algorithm AES to encrypt your data and requires from you to remember only one thing - your master key.
