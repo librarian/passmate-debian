@@ -42,7 +42,7 @@ install: build
 	dh_testroot
 	dh_clean -k 
 	dh_installdirs
-	touch Changelog
+	touch ChangeLog
 	mkdir -p debian/passmate/usr/bin
 	cp cli/passmate-cli qt/passmate-qt debian/passmate/usr/bin
 
